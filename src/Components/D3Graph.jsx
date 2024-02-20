@@ -88,7 +88,9 @@ const D3GraphWithDelaunay = ({ pixelArray, width, height, imgData }) => {
     }
     setDisplayArray(relaxedPixels); // Update the state to trigger a re-render
   };
-
+  useEffect(() => {
+    setWhich('voronoi');
+  }, []);
   return (
     <>
       <div className='canvas'>
