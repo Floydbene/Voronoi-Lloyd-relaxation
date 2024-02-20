@@ -55,6 +55,7 @@ const D3GraphWithDelaunay = ({ pixelArray, width, height, imgData }) => {
         .style('stroke', '#666')
         .style('fill', 'none');
     }
+    reset();
   }, [displayArray, which]);
 
   const clicky = () => {
