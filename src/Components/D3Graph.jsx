@@ -92,6 +92,7 @@ const D3GraphWithDelaunay = ({ pixelArray, width, height, imgData }) => {
   };
   useEffect(() => {
     setWhich('delaunay');
+    reset();
   }, []);
 
   if (loading) return <h1>loading...</h1>;
