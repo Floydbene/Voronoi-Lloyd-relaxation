@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import Voronoi from './Voronoi';
-import FloydImage from '../assets/flower.jpeg'; // Import the image
+import FloydImage from '../../public/flower.jpeg'; // Import the image
 
 const ImageProcessor = () => {
   const canvasRef = useRef(null);
